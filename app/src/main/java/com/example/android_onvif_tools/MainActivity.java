@@ -2,11 +2,10 @@ package com.example.android_onvif_tools;
 
 import android.os.Environment;
 import android.os.SystemClock;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
-
+import androidx.appcompat.app.AppCompatActivity;
 import com.wp.android_onvif.Constant;
 import com.wp.android_onvif.http.DownloadUtil;
 import com.wp.android_onvif.onvif.GeNetWorkInterfaceThread;
